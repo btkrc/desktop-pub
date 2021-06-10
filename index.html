@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <title>KAROC'S DESKTOP</title>
+    <title>KAROC'S desktop-pub</title>
     <meta name="description" content="表面上是一个二次元死宅，实则是一个穿西装打领带的三好青年。爱好：埃罗漫画">
-    <link rel='Shortcut Icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/favicon.ico'>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/js/jquery-2.2.4.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/css/animate.css" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/component/layer-v3.0.3/layer/layer.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/component/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/css/default.css" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/js/win10.js"></script>
+    <link rel='Shortcut Icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/favicon.ico'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/js/jquery-2.2.4.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/css/animate.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/component/layer-v3.0.3/layer/layer.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/component/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/css/default.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/js/win10.js"></script>
 <script>
 /*百度统计*/
 var _hmt = _hmt || [];
@@ -42,15 +42,15 @@ var _hmt = _hmt || [];
 
             //设置壁纸
             Win10.setBgUrl({
-                main: 'https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/871fb203866f98a173a877df44.jpg',
-                mobile: 'https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/79f0f736afc379313431d9dc3c8ecd4242a911bf.webp',
+                main: 'https://cdn.jsdelivr.net/gh/btkrc/resource@main/img/d80916e349a48f216d07c1fa339d69c2.jpeg',
+                mobile: 'https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/79f0f736afc379313431d9dc3c8ecd4242a911bf.webp',
             });
 
             Win10.setAnimated([
                 'animated flip',
                 'animated bounceIn',
             ], 0.01);
-            Win10.setContextMenu('#win10>.desktop', [
+            Win10.setContextMenu('#win10>.desktop-pub', [
                 '菜单标题', //单字符串，不带回调
                 ['进入全屏', function () { Win10.enableFullScreen() }], //菜单项+点击回调
                 ['退出全屏', function () { Win10.disableFullScreen() }],
@@ -69,7 +69,7 @@ var _hmt = _hmt || [];
         function win10_forgive_me() {
             Win10.enableFullScreen();
             layer.alert('你别后悔', {}, function (index) {
-                var blue = $('<img src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/presentation/bluescreen.jpg" style="position: fixed;width: 100%;height:100%;top:0;z-index:9999999999" />');
+                var blue = $('<img src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/presentation/bluescreen.jpg" style="position: fixed;width: 100%;height:100%;top:0;z-index:9999999999" />');
                 setTimeout(function () {
                     $('body').append(blue);
                 }, 100);
@@ -89,7 +89,7 @@ var _hmt = _hmt || [];
 
 <body>
     <div id="win10">
-        <div class="desktop">
+        <div class="desktop-pub">
             <div id="win10-shortcuts" class="shortcuts-hidden">
                 <div class="shortcut" onclick="window.open('https://www.btkrc.com','_self')">
                     <img class="icon"
@@ -97,52 +97,52 @@ var _hmt = _hmt || [];
                     <div class="title">小宇的博客</div>
                 </div>
                 <div class="shortcut" onclick="Win10.openUrl('https://www.baidu.com/',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/baidu.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/baidu.jpg" />
                     <div class="title">百度一下，你就知道</div>
                 </div>
                 <div class="shortcut" onclick="Win10.openUrl('/Blocks_Tower',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/diediegao.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/diediegao.jpg" />
                     <div class="title">叠叠高</div>
                 </div>
                 <div class="shortcut" onclick="Win10.openUrl('https://docs.python.org/3/',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/python.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/python.jpg" />
                     <div class="title">python文档</div>
                 </div>
                 <div class="shortcut" onclick="window.open('https://www.gulpjs.com.cn/docs/api/concepts/',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/gulp.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/gulp.jpg" />
                     <div class="title">gulp.js中文手册</div>
                 </div>
                 <div class="shortcut" onclick="Win10.openUrl('https://www.w3school.com.cn/jsref/index.asp',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/javascript.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/javascript.jpg" />
                     <div class="title">Javascript参考手册</div>
                 </div>
                 <div class="shortcut" onclick="window.open('https://www.php.net/manual/zh/mysqli.summary.php',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/php.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/php.jpg" />
                     <div class="title">PHP文档</div>
                 </div>
                 <div class="shortcut" onclick="window.open('https://vercel.com/btkrc/btkrc-waline',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/vercel.png" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/vercel.png" />
                     <div class="title">comments</div>
                 </div>
                 <div class="shortcut" onclick="window.open('https://github.com/btkrc',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/github.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/github.jpg" />
                     <div class="title">github</div>
                 </div>
                 <div class="shortcut" onclick="Win10.openUrl('https://space.bilibili.com/29980082',
-                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S DESKTOP')">
-                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop@gh-pages/img/bilibili.jpg" />
+                '<img class=\'icon\' src=\'./img/icon/win10.png\'/>KROC\'S desktop-pub')">
+                    <img class="icon" src="https://cdn.jsdelivr.net/gh/btkrc/desktop-pub@gh-pages/img/bilibili.jpg" />
                     <div class="title">bilibili</div>
                 </div>
             </div>
-            <div id="win10-desktop-scene"></div>
+            <div id="win10-desktop-pub-scene"></div>
         </div>
         <div id="win10-menu" class="hidden">
             <div class="list win10-menu-hidden animated animated-slideOutLeft">
@@ -188,7 +188,7 @@ var _hmt = _hmt || [];
             <div id="win10_btn_group_right" class="btn_group">
                 <div class="btn" id="win10_btn_time"></div>
                 <div class="btn" id="win10_btn_command"><span id="win10-msg-nof" class="fa fa-comment-o"></span></div>
-                <div class="btn" id="win10_btn_show_desktop"></div>
+                <div class="btn" id="win10_btn_show_desktop-pub"></div>
             </div>
         </div>
     </div>
