@@ -1,0 +1,19 @@
+{
+  "name": "btkrc-desktop",
+  "version": "1.0.0",
+  "description": "Win10-UI是一款win10风格的后台UI，让您轻松搭建一个别具一格的后台界面。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btkrc/desktop-pub.git"
+  },
+  "author": "btkrc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btkrc/desktop-pub/issues"
+  },
+  "homepage": "https://github.com/btkrc/desktop-pub#readme"
+}
