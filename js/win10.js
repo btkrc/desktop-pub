@@ -446,7 +446,7 @@ window.Win10 = {
         });
         //打广告
         setTimeout(function () {
-            console.log('https://www.btkrc.com')
+            console.log('https://www.zkryn.com')
         },500);
         //点击清空右键菜单
         $(document).click(function (event) {
